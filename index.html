@@ -4,33 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 
 <body>
-    <form>
+    <form class="form">
         <div>
             <label for="name">Nome:</label>
-            <input type="text" name="name" placeholder="Digite o seu nome..." required>
+            <input type="text" name="name" class="name" placeholder="Digite o seu nome...">
         </div>
 
         <div>
             <label for="lastName">Sobrenome:</label>
-            <input type="text" name="lastName" placeholder="Digite seu sobrenome..." required>
+            <input type="text" name="lastName" class="lastName" placeholder="Digite seu sobrenome...">
         </div>
 
         <div>
             <label for="weight">Peso</label>
-            <input type="text" name="weight" placeholder="Digite seu peso..." required>
+            <input type="text" name="weight" class="weight" placeholder="Digite seu peso...">
         </div>
 
         <div>
             <label for="height">Altura:</label>
-            <input type="text" name="height" placeholder="Digite sua altura..." required>
+            <input type="text" name="height" class="height" placeholder="Digite sua altura...">
         </div>
 
         <button type="submit">Enviar</button>
     </form>
+
+    <div class="result"></div>
 
     <script src="./src/js/script.js"></script>
 </body>
